@@ -12,6 +12,10 @@
     "lint": "eslint --ext .js,.jsx src/",
     "format": "prettier --write '**/*.{js,jsx,css,scss,json,md}'"
   },
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.8.0"
+  },
   "author": "Markus Englund <markus.s.englund@gmail.com>",
   "license": "MIT",
   "dependencies": {
