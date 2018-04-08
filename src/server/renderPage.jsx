@@ -64,6 +64,7 @@ const renderPage = (req, res) => {
         window.PRELOADED_STATE = ${JSON.stringify(preloadedState)}
       </script>
       <script src=${manifest["main.js"]}></script>
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
     </html>
   `;
   res.send(html);

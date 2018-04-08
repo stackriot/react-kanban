@@ -31,7 +31,7 @@ module.exports = {
             loader: "url-loader",
             options: {
               emitFile: false,
-              limit: 4096,
+              limit: 8000,
               name: "[name].[hash].[ext]",
               publicPath: "/static/images/"
             }
