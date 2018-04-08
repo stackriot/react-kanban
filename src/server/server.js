@@ -54,7 +54,7 @@ MongoClient.connect(process.env.MONGODB_URL).then(client => {
   app.use(fetchBoardData(db));
   app.get("*", renderPage);
 
-  const port = process.env.PORT || "1337";
+  const port = process.env.PORT || "5000";
   /* eslint-disable no-console */
   app.listen(port, () => console.log(`Server listening on port ${port}`));
 });
