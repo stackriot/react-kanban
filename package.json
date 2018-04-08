@@ -17,7 +17,7 @@
   },
   "engines": {
     "node": "8.11.1",
-    "npm": "5.6.0"
+    "npm": "5.7.1"
   },
   "author": "Markus Englund <markus.s.englund@gmail.com>",
   "license": "MIT",
