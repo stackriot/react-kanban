@@ -14,7 +14,7 @@ const createWelcomeBoard = userId => {
     { text: "### An open source application inspired by Trello" },
     {
       text: `![Octocat](https://assets-cdn.github.com/images/modules/logos_page/Octocat.png)
-Check out the [source code on GitHub](https://github.com/sethbergman/react-kanban)
+Check out the [source code on GitHub](https://github.com/stackriot/react-kanban)
 `,
       color: "#6df"
     }
