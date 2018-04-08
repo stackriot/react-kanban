@@ -26,7 +26,6 @@ A server-rendered React app inspired by [Trello](https://trello.com/home).
 * [MongoDB](https://github.com/mongodb/mongo)
 * [Passport](https://github.com/jaredhanson/passport)
 
-
 ### Development
 
 Setting up the full app with your own mongoDB instance and auth credentials for Twitter and Google sign-in requires significant effort. Use the simplified set up if you don't want to bother with that.
