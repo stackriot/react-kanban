@@ -6,9 +6,9 @@
   "scripts": {
     "build": "webpack-dashboard -- webpack --watch --mode development",
     "build:prod": "webpack --mode production",
-    "serve": "nodemon dist/server.js",
+    "serve": "node dist/server.js",
     "serve:prod": "NODE_ENV=production node dist/server.js",
-    "start": "npm run build:prod && npm run serve:prod",
+    "start": "npm run serve:prod",
     "analyze-bundle": "webpack -p --profile --json > stats.json && webpack-bundle-analyzer stats.json dist/public -s gzip",
     "lint": "eslint --ext .js,.jsx src/",
     "format": "prettier --write '**/*.{js,jsx,css,scss,json,md}'"
