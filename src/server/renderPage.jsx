@@ -53,6 +53,7 @@ const renderPage = (req, res) => {
         <meta name="msapplication-TileColor" content="#FFFFFF" />
         <meta name="msapplication-TileImage" content="/static/favicons/mstile-144x144.png" />
         <meta property="og:image" content="https://reactkanban.com/static/favicons/og-kanban-logo.png">
+        <meta name="google-site-verification" content="kc5rnCJU-Ms7uz-uw_hUmnZEc8ZbGleHkSzmT9RwXnQ" />
         <link rel="stylesheet" href=${manifest["main.css"]}>
         ${helmet.title.toString()}
       </head>
