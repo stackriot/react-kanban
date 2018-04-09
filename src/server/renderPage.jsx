@@ -54,6 +54,21 @@ const renderPage = (req, res) => {
         <meta name="msapplication-TileImage" content="/static/favicons/mstile-144x144.png" />
         <meta property="og:image" content="https://react-kanban.stackriot.com/static/favicons/og-kanban-logo.png">
         <meta name="google-site-verification" content="kc5rnCJU-Ms7uz-uw_hUmnZEc8ZbGleHkSzmT9RwXnQ" />
+        
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyAx2FcJ1V2kK3XkGIKCyD04xd3phnaEWck",
+            authDomain: "react-kanban-9d943.firebaseapp.com",
+            databaseURL: "https://react-kanban-9d943.firebaseio.com",
+            projectId: "react-kanban",
+            storageBucket: "react-kanban.appspot.com",
+            messagingSenderId: "140800194581"
+          };
+          firebase.initializeApp(config);
+        </script>
+        
         <link rel="stylesheet" href=${manifest["main.css"]}>
         ${helmet.title.toString()}
       </head>
@@ -64,7 +79,6 @@ const renderPage = (req, res) => {
         window.PRELOADED_STATE = ${JSON.stringify(preloadedState)}
       </script>
       <script src=${manifest["main.js"]}></script>
-      <script src="https://apis.google.com/js/platform.js" async defer></script>
     </html>
   `;
   res.send(html);
