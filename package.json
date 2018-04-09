@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack-dashboard -- webpack --watch --mode development",
     "build:prod": "webpack --mode production",
-    "serve": "sh .env && node dist/server.js",
+    "serve": "node dist/server.js",
     "serve:prod": "NODE_ENV=production node dist/server.js",
     "start": "npm run serve",
     "analyze-bundle": "webpack -p --profile --json > stats.json && webpack-bundle-analyzer stats.json dist/public -s gzip",
