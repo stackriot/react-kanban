@@ -51,7 +51,7 @@
   \*******************************************************/
 /*! no static exports found */
 /*! all exports used */
-/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(e,t){var n=e.exports={version:"2.5.4"};"number"==typeof __e&&(__e=n)},
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(e,t){var n=e.exports={version:"2.5.5"};"number"==typeof __e&&(__e=n)},
 /*!*****************************************!*\
   !*** ./node_modules/axios/lib/utils.js ***!
   \*****************************************/
@@ -464,7 +464,7 @@
   \***********************************************/
 /*! no static exports found */
 /*! all exports used */
-/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(e,t){var n=e.exports={version:"2.5.4"};"number"==typeof __e&&(__e=n)},
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(e,t){var n=e.exports={version:"2.5.5"};"number"==typeof __e&&(__e=n)},
 /*!*****************************************************!*\
   !*** ./node_modules/core-js/modules/_to-iobject.js ***!
   \*****************************************************/

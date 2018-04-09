@@ -36,7 +36,7 @@ MongoClient.connect(process.env.MONGODB_URL).then(client => {
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
   // aggressive cache static assets (1 year)
-  app.use("/static", express.static("dist/public", { maxAge: "0" }));
+  app.use("/static", express.static("dist/public", { maxAge: "1y" }));
 
   // Persist session in mongoDB
   app.use(
